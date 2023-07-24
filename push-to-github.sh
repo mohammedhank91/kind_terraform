@@ -30,7 +30,7 @@ read -p "Enter repository name: " repo_name
 
 # Set username and password for git push
 username="mohammedhank91"
-password="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"
+password="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"
 
 # Check if the repository exists
 if ! curl --silent --head --request GET "https://api.github.com/repos/$username/$repo_name" | grep "200 OK" > /dev/null; then
