@@ -1,4 +1,4 @@
-# Deploy Kubernetes Locally Using Kind & Terraform 
+# My Kubernetes Infrastructure Repository
 
 This repository contains the Terraform configuration files and scripts to set up a Kubernetes infrastructure with Kind and deploy an Nginx Ingress Controller using Helm.
 
@@ -32,14 +32,14 @@ Customize the deployment by modifying nginx_ingress_values.yaml, variables.tf, a
 
 This setup is intended for local development and testing purposes.
 
-**Files:**
- - demo.sh: Script to set up the Kind Kubernetes cluster.
- - kind_cluster.tf: Terraform configuration to define the Kind cluster.
- - nginx_ingress.tf: Terraform configuration to deploy the Nginx Ingress Controller.
- - nginx_ingress_values.yaml: Helm values file to customize the Nginx  Ingress deployment.
- - variables.tf: Terraform variables file to set up configurable  variables.
- - versions.tf: Terraform versions file to define the required versions.
+## **Files:**
+
+ - *demo.sh*: Script to set up the Kind Kubernetes cluster.
+ - *kind_cluster.tf*: Terraform configuration to define the Kind cluster.
+ - *nginx_ingress.tf*: Terraform configuration to deploy the Nginx Ingress Controller.
+ - *nginx_ingress_values.yaml*: Helm values file to customize the Nginx  Ingress deployment.
+ - *variables.tf*: Terraform variables file to set up configurable  variables.
+ - *versions.tf*: Terraform versions file to define the required versions.
 
 ## License
 This project is licensed under the [MIT License](mohammedhank91.github.io).
-
