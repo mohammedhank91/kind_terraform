@@ -24,7 +24,7 @@ cd kind_terraform
 ```
 
 Set up the Kubernetes cluster using Kind:
-```./demo.sh```
+```./apply.sh```
 
 Customize the deployment by modifying nginx_ingress_values.yaml, variables.tf, and versions.tf.
 
