@@ -33,11 +33,5 @@ resource "kind_cluster" "default" {
     node {
       role = "worker"
     }
-node {
-      role = "worker"
-    }
-node {
-      role = "worker"
-    }
   }
 }
